@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-loomreactapp-dev-163205-authRole",
+      "UnauthRoleArn": "arn:aws:iam::792203911820:role/amplify-loomreactapp-dev-163205-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::792203911820:role/amplify-loomreactapp-dev-163205-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-loomreactapp-dev-163205-deployment",
+      "UnauthRoleName": "amplify-loomreactapp-dev-163205-unauthRole",
+      "StackName": "amplify-loomreactapp-dev-163205",
+      "StackId": "arn:aws:cloudformation:us-east-2:792203911820:stack/amplify-loomreactapp-dev-163205/9846f710-84c7-11ee-8c7c-02f9b0e0c709",
+      "AmplifyAppId": "d3pg90rpsk971f"
+    },
+    "categories": {
+      "auth": {
+        "loomreactapp318ddda1": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.App {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.AuthenticatorContainer {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-top: 20vh;
+}
+
+h1 {
+  font-size: 10vh;
+}
+
+.App::-webkit-scrollbar {
+  position: relative;
+  width: 0.5em;
+  z-index: 9999;
+}
+.App::-webkit-scrollbar-thumb {
+  background-color: transparent;
+} 
