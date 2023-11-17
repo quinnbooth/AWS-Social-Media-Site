@@ -1,30 +1,101 @@
 {
   "auth": {
-    "loomreactapp318ddda1": {
+    "awssocialmediasitelo18d15eaa": {
       "customAuth": false,
       "dependsOn": [],
-      "frontendAuthConfig": {
-        "mfaConfiguration": "OFF",
-        "mfaTypes": [
-          "SMS"
-        ],
-        "passwordProtectionSettings": {
-          "passwordPolicyCharacters": [],
-          "passwordPolicyMinLength": 8
-        },
-        "signupAttributes": [
-          "EMAIL"
-        ],
-        "socialProviders": [],
-        "usernameAttributes": [
-          "EMAIL"
-        ],
-        "verificationMechanisms": [
-          "EMAIL"
-        ]
-      },
       "providerPlugin": "awscloudformation",
-      "service": "Cognito"
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_awssocialmediasitelo18d15eaa_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ]
+    },
+    "AMPLIFY_auth_awssocialmediasitelo18d15eaa_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ]
+    },
+    "AMPLIFY_auth_awssocialmediasitelo18d15eaa_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ]
+    },
+    "AMPLIFY_auth_awssocialmediasitelo18d15eaa_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ]
+    },
+    "AMPLIFY_auth_awssocialmediasitelo18d15eaa_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ]
+    },
+    "AMPLIFY_auth_awssocialmediasitelo18d15eaa_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ]
+    },
+    "AMPLIFY_auth_awssocialmediasitelo18d15eaa_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ]
+    },
+    "AMPLIFY_auth_awssocialmediasitelo18d15eaa_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ]
+    },
+    "AMPLIFY_auth_awssocialmediasitelo18d15eaa_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ]
+    },
+    "AMPLIFY_auth_awssocialmediasitelo18d15eaa_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ]
+    },
+    "AMPLIFY_auth_awssocialmediasitelo18d15eaa_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ]
     }
   }
 }
