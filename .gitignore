@@ -3,6 +3,8 @@ src/aws-exports.js
 amplify/backend/awscloudformation/
 amplify/backend/amplify-meta.json
 
+loom-private.txt
+
 # dependencies
 /node_modules
 

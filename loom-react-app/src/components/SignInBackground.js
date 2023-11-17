@@ -3,7 +3,7 @@ import './SignInBackground.css'
 
 function SignInBackground() {
     return (
-        <div class="container"></div>
+        <div className="container"></div>
       );
 }
 

@@ -1,0 +1,57 @@
+.home {
+    position: absolute;
+    /* background-color: red; */
+    top: -20vh;
+}
+
+.navbar {
+    width: 100vw;
+    background-color: #748E63;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+  
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.navbutton {
+    display: block;
+    border: 0px;
+    background-color: #99B080;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.settings {
+    display: flex;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.settingsbutton {
+    position: absolute;
+    right: 120px;
+    margin-top: -24px;
+    border: transparent;
+    background-color: transparent;
+}
+
+.navbar a:hover, .navbar button:hover {
+    background-color: #F9B572;
+    color: #748E63;
+}
