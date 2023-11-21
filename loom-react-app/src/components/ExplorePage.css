@@ -1,0 +1,14 @@
+.postItem {
+    color: black;
+    border: solid 1px rgb(167, 167, 167);
+    background: transparent;
+}
+
+p {
+    position: relative;
+    color: black;
+    font-size: 1em;
+    text-align: left;
+    left: 5px;
+    margin-bottom: 10px;
+}

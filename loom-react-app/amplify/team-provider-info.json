@@ -26,6 +26,9 @@
           "unauthRoleArn": "arn:aws:iam::792203911820:role/service-role/loom-IAM-unauthorized-role",
           "unauthRoleName": "loom-IAM-unauthorized-role"
         }
+      },
+      "api": {
+        "loomgraphqlapi": {}
       }
     }
   },

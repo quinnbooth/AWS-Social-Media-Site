@@ -1,4 +1,39 @@
 {
+  "api": {
+    "loomgraphqlapi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "awssocialmediasitelo18d15eaa"
+        }
+      ],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [
+            {
+              "apiKeyConfig": {
+                "apiKeyExpirationDate": "2023-11-27T03:07:02.519Z",
+                "apiKeyExpirationDays": 7,
+                "description": "I DONT WANT"
+              },
+              "authenticationType": "API_KEY"
+            }
+          ],
+          "defaultAuthentication": {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authawssocialmediasitelo18d15eaa"
+            }
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
   "auth": {
     "awssocialmediasitelo18d15eaa": {
       "customAuth": false,

@@ -2,6 +2,8 @@
   overflow-x: hidden;
   overflow-y: auto;
   height: 100vh;
+  /* background-color: #99B080; */
+  background-color: rgb(1, 7, 4);
 }
 
 .AuthenticatorContainer {
@@ -9,6 +11,7 @@
   text-align: center;
   width: 100%;
   margin-top: 20vh;
+  align-items: center;
 }
 
 h1 {

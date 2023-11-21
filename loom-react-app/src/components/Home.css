@@ -1,17 +1,28 @@
 .home {
+    display: flex;
     position: absolute;
-    /* background-color: red; */
     top: -20vh;
+    align-items: center;
+    height: 100vh;
+    width: 1100px;
+    overflow: hidden;
+    background-color: #99B080;
+    border-left: 10px solid rgb(7, 19, 7);
+    border-right: 10px solid rgb(7, 19, 7);
+    left: 50%;
+    transform: translate(-560px, 0);
 }
 
 .navbar {
-    width: 100vw;
+    position: absolute;
+    width: 100%;
     background-color: #748E63;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    top: 0px;
 }
   
 .navbar ul {
@@ -35,6 +46,8 @@
     letter-spacing: 3px;
     font-weight: bold;
     text-decoration: none;
+    border: none;
+    border-radius: 10px;
 }
 
 .settings {
@@ -49,9 +62,50 @@
     margin-top: -24px;
     border: transparent;
     background-color: transparent;
+    border: none;
+    border-radius: 10px;
 }
 
 .navbar a:hover, .navbar button:hover {
     background-color: #F9B572;
     color: #748E63;
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
+
+.newPostButton {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #F9B572, #45a049);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 2;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  
+  .newPostButton:hover {
+    transform: scale(1.05) translate(-50%, 0%);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .contentBox {
+    position: relative;
+    left: 200px;
+    background-color: white;
+    width: 700px;
+    height: 100%;
+    bottom: 0;
+    border: 20px solid #748E63;
+    padding: 20px;
+    overflow-y: auto;
+  }
+
