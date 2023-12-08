@@ -1,0 +1,13 @@
+{
+  "resourceName": "loomImageStorage",
+  "policyUUID": "bdbd73dd",
+  "bucketName": "loom-image-bucket",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

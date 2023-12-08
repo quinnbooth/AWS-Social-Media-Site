@@ -132,5 +132,12 @@
         }
       ]
     }
+  },
+  "storage": {
+    "loomImageStorage": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    }
   }
 }

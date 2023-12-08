@@ -5,5 +5,11 @@ export type AmplifyDependentResourcesAttributes = {
       "GraphQLAPIIdOutput": "string",
       "GraphQLAPIKeyOutput": "string"
     }
+  },
+  "storage": {
+    "loomImageStorage": {
+      "BucketName": "string",
+      "Region": "string"
+    }
   }
 }
