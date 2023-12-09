@@ -84,7 +84,9 @@ function Home({ user, signOut, login, logout, client }) {
                     page === "me" ? <MePage posts={sortedPosts} user={user} /> : <SettingsPage />
                 }
             </div>
-            <MakePost newPost={newPost} posts={posts} setPosts={setPosts} />
+            {(page != 'settings') && (
+              <MakePost newPost={newPost} posts={posts} setPosts={setPosts} />
+            )}
         </div>
     );
 }
