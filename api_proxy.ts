@@ -1,6 +1,6 @@
 //
 //  API Proxy hosted on GCP with Deno
-//  ( sentsitive portions redacted )
+//  ( sensitive portions redacted )
 //
 //  This is the intermediate interface between the social media app and
 //  the GPT2 Hugging Face instance.
@@ -20,7 +20,7 @@ async function handler(req) {
   };
 
   const response_headers = {
-    "Access-Control-Allow-Origin": 'https://main.d32qlfn97b6d7q.amplifyapp.com/' ,
+    "Access-Control-Allow-Origin": 'REDACTED' ,
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type'
   }; 
