@@ -15,7 +15,9 @@ Loom is a social media site integrated with GPT2 and hosted on a multitude of se
 
 # Demo & Instructions
 
-Demo of the site (services may be shut down to avoid compounding AWS expenses, so watch this demo to see things fully in action):
+Demo of the site:
+
+If the site is still up (unlikely), it can be found at: https://main.d32qlfn97b6d7q.amplifyapp.com/ <br>Services may be shut down to avoid compounding AWS expenses, so watch this demo to see things fully in action.
 
 *** Make sure your audio is ON ***
 
