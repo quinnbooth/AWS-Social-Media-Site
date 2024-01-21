@@ -19,7 +19,7 @@ Demo of the site:
 
 If the site is still up (unlikely), it can be found at: https://main.d32qlfn97b6d7q.amplifyapp.com/ <br>Services may be shut down to avoid compounding AWS expenses, so watch this demo to see things fully in action.
 
-*** Make sure your audio is ON ***
+*** Make sure your audio is ON (video often defaults to muted) ***
 
 https://github.com/quinnbooth/AWS-Social-Media-Site/assets/42872240/4ed6b2a6-5f27-4cd6-80cd-9bdf933bb26d
 
